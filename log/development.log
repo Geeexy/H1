@@ -1,0 +1,383 @@
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 16:27:42 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (32.6ms)
+Completed 200 OK in 549ms (Views: 442.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 16:29:31 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (0.3ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:13:12 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.1ms)
+Completed 200 OK in 1091ms (Views: 627.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:17:45 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (23.4ms)
+Completed 200 OK in 2272ms (Views: 477.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:18:04 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:31:32 +0800
+
+SyntaxError (/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+    render html:<p>hello,world</p>
+                 ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+    render html:<p>hello,world</p>
+                         ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+  app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+  app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1743.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2197.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1882.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20129.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (111.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (161.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (53.7ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (140.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (7612.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (48.7ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (14.3ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (13484.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:33:12 +0800
+
+SyntaxError (/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+    render html:<p>hello,world</p>
+                 ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+    render html:<p>hello,world</p>
+                         ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+  app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting keyword_end
+  app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+  app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (527.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2392.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (958.2ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (4162.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (50.2ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (24.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (662.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (33.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (773.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:47:08 +0800
+
+SyntaxError (/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+    render html:(<p>hello,world</p>)
+                  ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+    render html:(<p>hello,world</p>)
+                          ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'):
+  app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+  app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+  app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+  app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (2124.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2253.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1980.2ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16149.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (107.3ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (77.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (54.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (81.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2451.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (103.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (158.3ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (3904.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:48:09 +0800
+
+SyntaxError (/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+    render html:(<p>hello,world</p>)
+                  ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+    render html:(<p>hello,world</p>)
+                          ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'):
+  app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+  app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+  app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+  app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (111.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (53.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (98.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (399.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (69.6ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (21.3ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (30.7ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (330.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (102.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (66.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (657.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:48:16 +0800
+
+SyntaxError (/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+    render html:(<p>hello,world</p>)
+                  ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+    render html:(<p>hello,world</p>)
+                          ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'):
+  app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+  app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+  app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+  app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (343.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (68.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (497.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (49.5ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (72.4ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (9.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (144.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (21.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (8.3ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (324.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:48:29 +0800
+
+SyntaxError (/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+    render html:(<p>hello,world</p>)
+                  ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+    render html:(<p>hello,world</p>)
+                          ^
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+/home/peng/workspace/hello_app/app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'):
+  app/controllers/application_controller.rb:7: syntax error, unexpected '<'
+  app/controllers/application_controller.rb:7: syntax error, unexpected ',', expecting ')'
+  app/controllers/application_controller.rb:7: unterminated regexp meets end of file
+  app/controllers/application_controller.rb:7: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (28.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (23.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.7ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (12.3ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (36.9ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (24.0ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.7ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (173.8ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (19.1ms)
+  Rendered /home/peng/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (329.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:57:24 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (66.3ms)
+Completed 200 OK in 2548ms (Views: 1826.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 18:59:12 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.1ms)
+Completed 200 OK in 44ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 19:10:29 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (514.1ms)
+Completed 200 OK in 11441ms (Views: 6993.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 19:11:28 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (17.6ms)
+Completed 200 OK in 317ms (Views: 269.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 19:13:46 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.1ms)
+Completed 200 OK in 78ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 19:29:56 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (128.6ms)
+Completed 200 OK in 5397ms (Views: 3011.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 20:07:19 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (211.2ms)
+Completed 200 OK in 10016ms (Views: 5300.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 20:31:07 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (154.5ms)
+Completed 200 OK in 17373ms (Views: 12146.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 20:32:21 +0800
+Processing by ApplicationController#hello as HTML
+  Rendered html template (293.2ms)
+Completed 200 OK in 520ms (Views: 347.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (88.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (22.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20171105130518)
+  [1m[36m (2.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "emaill" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20171105130518"]]
+  [1m[35m (494.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-05 22:11:47 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#hello as HTML
+  Rendered html template (0.0ms)
+Completed 200 OK in 54ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2017-11-05 22:12:16 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 2450ms (Views: 2449.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/assets/scaffolds.self-7081124dafe79cfb28a7f033e1716c2328be6681823eff5124ea554d57faf058.css?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-05 22:12:19 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2017-11-05 22:17:20 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 140ms (Views: 138.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-7081124dafe79cfb28a7f033e1716c2328be6681823eff5124ea554d57faf058.css?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-05 22:17:21 +0800
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2017-11-05 22:21:47 +0800
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 232ms (Views: 229.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-7081124dafe79cfb28a7f033e1716c2328be6681823eff5124ea554d57faf058.css?body=1" for 127.0.0.1 at 2017-11-05 22:21:47 +0800
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-05 22:21:47 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-11-05 22:21:47 +0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2017-11-05 22:21:47 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2017-11-05 22:21:48 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-11-05 22:21:48 +0800
+
+
+Started GET "/assets/turbolinks.self-1d1fddf91adc38ac2045c51f0a3e05ca97d07d24d15a4dcbf705009106489e69.js?body=1" for 127.0.0.1 at 2017-11-05 22:21:48 +0800
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-05 22:21:48 +0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-11-05 22:21:48 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2017-11-05 22:21:48 +0800
